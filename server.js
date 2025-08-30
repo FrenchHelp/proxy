@@ -32,5 +32,5 @@ app.get('/proxy', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Proxy server running on port ${PORT}`);
+  console.log(`Proxy server running on port ${PORT}. To use, go to proxy-site.com/proxy?url=https://example.com`);
 });
